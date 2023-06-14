@@ -2,7 +2,7 @@
 *
 * Copyright (c) 2021 Polarity Works
 * SPDX-License-Identifier: MIT
-*
+* 
 */
 
 #include "adv360.keymap"
