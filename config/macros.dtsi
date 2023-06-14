@@ -1,8 +1,26 @@
-macro_macro_mac_copy: macro_macro_mac_copy{
+macro_ctrl_paste: macro_ctrl_paste{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_mac_copy";
+label = "macro_ctrl_paste";
 #binding-cells = <0>;
-bindings = ;
+bindings = <&kp LCTRL>, <&kp P>;
+};
+macro_ctrl_copy: macro_ctrl_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_copy";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp C>;
+};
+macro_cmd_paste: macro_cmd_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd_paste";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp P>;
+};
+macro_cmd_copy: macro_cmd_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd_copy";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp C>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
