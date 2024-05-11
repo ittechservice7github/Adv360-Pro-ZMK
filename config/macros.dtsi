@@ -34,15 +34,3 @@
     #binding-cells = <0>;
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
-  macro_cmd_copy: macro_cmd_copy {
-    compatible = "zmk,behavior-macro";
-    label = "macro_cmd_copy";
-    #binding-cells = <0>;
-    bindings = <&kp RIGHT_COMMAND>, <&kp C>;
-  };
-  macro_cmd_paste: macro_cmd_paste {
-    compatible = "zmk,behavior-macro";
-    label = "macro_cmd_paste";
-    #binding-cells = <0>;
-    bindings = <&kp RIGHT_COMMAND>, <&kp V>;
-  };
